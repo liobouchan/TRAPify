@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/liobouchan/TRAPify/issues"
   },
-  "homepage": "https://github.com/liobouchan/TRAPify#readme"
+  "homepage": "https://github.com/liobouchan/TRAPify#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
