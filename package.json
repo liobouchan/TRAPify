@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/liobouchan/TRAPify#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "express": "^4.15.3"
   }
 }
