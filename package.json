@@ -1,0 +1,19 @@
+{
+  "name": "trapify",
+  "version": "1.0.0",
+  "description": "Proyecto de API REST con NodeJS by Lio Bouchan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liobouchan/TRAPify.git"
+  },
+  "author": "Leonardo Bouchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liobouchan/TRAPify/issues"
+  },
+  "homepage": "https://github.com/liobouchan/TRAPify#readme"
+}
