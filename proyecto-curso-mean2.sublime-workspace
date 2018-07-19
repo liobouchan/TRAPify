@@ -4,20 +4,80 @@
 		"selected_items":
 		[
 			[
-				"art",
-				"artist"
+				"get",
+				"getSongFile"
 			],
 			[
-				"ar",
+				"uplo",
+				"uploadFile"
+			],
+			[
+				"song",
+				"songId"
+			],
+			[
+				"sa",
+				"saveSong"
+			],
+			[
+				"son",
+				"song_routes"
+			],
+			[
+				"album",
+				"albumUpdated"
+			],
+			[
+				"alb",
+				"albumRemoved"
+			],
+			[
+				"al",
+				"albumId"
+			],
+			[
+				"albu",
+				"albumId"
+			],
+			[
+				"fi",
+				"find"
+			],
+			[
+				"artist",
 				"artistId"
 			],
 			[
 				"save",
-				"saveArtist"
+				"saveAlbum"
 			],
 			[
-				"get",
-				"getArtist"
+				"ALBUM",
+				"album"
+			],
+			[
+				"art",
+				"artistId"
+			],
+			[
+				"FI",
+				"find"
+			],
+			[
+				"arti",
+				"artistRemoved"
+			],
+			[
+				"upda",
+				"updateArtist"
+			],
+			[
+				"ar",
+				"artistUpdated"
+			],
+			[
+				"find",
+				"findById"
 			],
 			[
 				"path",
@@ -84,19 +144,28 @@
 	"buffers":
 	[
 		{
-			"file": "controllers/artist.js",
+			"file": "controllers/song.js",
 			"settings":
 			{
-				"buffer_size": 1122,
+				"buffer_size": 3599,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "routes/artist.js",
+			"file": "controllers/album.js",
 			"settings":
 			{
-				"buffer_size": 355,
+				"buffer_size": 4156,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/song.js",
+			"settings":
+			{
+				"buffer_size": 822,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -105,7 +174,8 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 443,
+				"buffer_size": 596,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -144,32 +214,31 @@
 	[
 		"/C/Users/leobo/Documents/Code/curso-mean2",
 		"/C/Users/leobo/Documents/Code/curso-mean2/controllers",
-		"/C/Users/leobo/Documents/Code/curso-mean2/middlewares",
-		"/C/Users/leobo/Documents/Code/curso-mean2/models",
 		"/C/Users/leobo/Documents/Code/curso-mean2/routes",
-		"/C/Users/leobo/Documents/Code/curso-mean2/uploads",
-		"/C/Users/leobo/Documents/Code/curso-mean2/uploads/users"
+		"/C/Users/leobo/Documents/Code/curso-mean2/uploads"
 	],
 	"file_history":
 	[
-		"/C/Users/leobo/Documents/Code/curso-mean2/models/artist.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/routes/album.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/controllers/album.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/routes/user.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/routes/artist.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/app.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/controllers/artist.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/models/album.js",
+		"/C/Users/leobo/Documents/Code/curso-mean2/models/artist.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/controllers/user.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/middlewares/authenticated.js",
-		"/C/Users/leobo/Documents/Code/curso-mean2/routes/user.js",
-		"/C/Users/leobo/Documents/Code/curso-mean2/controllers/artist.js",
-		"/C/Users/leobo/Documents/Code/curso-mean2/routes/artist.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/index.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/services/jwt.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/models/user.js",
-		"/C/Users/leobo/Documents/Code/curso-mean2/models/album.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/models/song.js",
 		"/C/Users/leobo/Documents/Code/curso-mean2/package.json",
 		"/C/cygwin64/home/leobo/.bash_profile"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -183,8 +252,46 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"imageFile",
+			"albumUpdated",
+			"image",
+			"albumId",
+			"albumRemoved",
+			"albumUpdated",
+			"Album",
+			"album",
+			"year",
+			"album",
+			"artistUpdated",
+			"title",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"artist",
+			"Artist",
+			"ArtistController",
+			"userId",
+			"artists"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -200,24 +307,81 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "controllers/artist.js",
+					"file": "controllers/song.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1122,
+						"buffer_size": 3599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								321,
-								321
+								3311,
+								3311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controllers/album.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4043,
+								2932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1859.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/song.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								635,
+								635
 							]
 						],
 						"settings":
@@ -232,48 +396,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "routes/artist.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								355,
-								355
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 443,
+						"buffer_size": 596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								570,
+								570
 							]
 						],
 						"settings":
@@ -292,7 +428,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -329,7 +465,7 @@
 	"project": "proyecto-curso-mean2.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
